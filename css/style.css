@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --white: hsl(0, 0%, 100%);
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif; /*500,700,900*/
+  font-weight: 500;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: var(--pale-blue);
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: var(--dark-blue);
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+p {
+  line-height: 1.5;
+  color: var(--desaturated-blue);
+}
+
+a {
+  font-weight: 700;
+  color: var(--bright-blue);
+}
+
+button {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  color: var(--white);
+  background-color: var(--bright-blue);
+  box-shadow: 0 10px 20px 1px rgba(56, 41, 224, 0.3);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-wrapper {
+  border-radius: 20px;
+  text-align: center;
+  background-color: var(--white);
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.main-info{
+    padding: 10px;
+}
+
+.main-info-txt {
+  padding: 40px 60px 20px;
+}
+
+.price-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 40px 30px;
+  padding: 25px;
+  background-color: var(--very-pale-blue);
+  border-radius: 10px;
+}
+
+.price-main {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.price-main img {
+  height: 80%;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px 40px;
+  gap: 25px;
+}
+
+.buttons-container a {
+  font-size: 1rem;
+  font-weight: 900;
+  color: var(--desaturated-blue);
+  text-decoration: none;
+}
