@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/order-summary-component-bkEmdV2I0g)
 - Live Site URL: [Live site](https://julianchoripan.github.io/FM-order-summary-component/)
 
 ## My process
