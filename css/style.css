@@ -23,6 +23,7 @@ body {
   font-family: "Red Hat Display", sans-serif; /*500,700,900*/
   font-weight: 500;
   background-image: url(../images/pattern-background-desktop.svg);
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: var(--pale-blue);
 }
@@ -86,8 +87,8 @@ main {
   border-top-right-radius: 20px;
 }
 
-.main-info{
-    padding: 10px;
+.main-info {
+  padding: 10px;
 }
 
 .main-info-txt {
