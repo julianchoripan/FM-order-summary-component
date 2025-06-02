@@ -12,6 +12,7 @@
   --very-pale-blue: hsl(225, 100%, 98%);
   --desaturated-blue: hsl(224, 23%, 55%);
   --dark-blue: hsl(223, 47%, 23%);
+  --active-states: hsl(245, 59%, 61%);
   --white: hsl(0, 0%, 100%);
 }
 
@@ -135,4 +136,19 @@ main {
   font-weight: 900;
   color: var(--desaturated-blue);
   text-decoration: none;
+}
+
+button:hover {
+  background-color: var(--active-states);
+  cursor: pointer;
+}
+
+.price-info a:hover {
+  color: var(--active-states);
+  cursor: pointer;
+}
+
+.buttons-container a:hover {
+  color: var(--dark-blue);
+  cursor: pointer;
 }
